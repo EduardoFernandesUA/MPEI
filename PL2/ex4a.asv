@@ -1,0 +1,18 @@
+pessoas = 2; % duas ou mais
+p = 0.5;
+ano = 365; % dias
+tests = 100;
+maxDays = 1e5;
+tests = 100;
+
+res = 0;
+for i=1:tests
+
+    dates = zeros(1,ano);
+    for n=1:maxDays
+        day = randi(365);
+        dates(day) = dates(day) + 1;
+        if dates(day) >= pessoas
+    end
+
+end
